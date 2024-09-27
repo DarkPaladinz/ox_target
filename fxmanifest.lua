@@ -37,10 +37,16 @@ files {
 	'client/framework/nd.lua',
 	'client/framework/ox.lua',
 	'client/framework/esx.lua',
+<<<<<<< HEAD
 	'client/framework/qbx.lua',
+=======
+	'client/framework/qb.lua',
+>>>>>>> parent of 361bbd1 (fix: cure cancer)
 	'client/compat/qtarget.lua',
+	'client/compat/qb-target.lua',
 }
 
 provide 'qtarget'
+provide 'qb-target'
 
 dependency 'ox_lib'
